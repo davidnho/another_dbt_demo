@@ -1,0 +1,31 @@
+
+version: 2
+
+models:
+  - name: tablenames1
+    description: "tablenames 01"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+      - name : firstname  
+        description: "Firstname"
+
+  - name: tablenames2
+    description: "tablenames 01"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+      - name : firstname  
+        description: "Firstname"
+
+
+
+
+  # - name: tablenames2
+  #   description: "A starter dbt model"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+        # tests:
+        #   - unique
+        #   - not_null

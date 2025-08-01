@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: dbt
+    description: 'dbt database'
+    database: dbt
+    schema: dbt_ndavid
+    tables:
+      - name: tblnames
+
+
+ 
